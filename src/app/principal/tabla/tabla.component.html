@@ -1,0 +1,33 @@
+<section>
+    <section class="sectionTitle">
+        <h2>LISTA DE PRODUCTOS</h2>
+    </section>
+    <section class="sectionTable bg-light">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Codigo</th>
+                    <th>Descripcion</th>
+                    <th>Precio de compra</th>
+                    <th>Precio de venta</th>
+                    <th>Ganancia</th>
+                    <th>existencia</th>
+                    <th>Editar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let dato of productos">
+                    <td>{{dato.id}}</td>
+                    <td>{{dato.codigo}}</td>
+                    <td>{{dato.descripcion}}</td>
+                    <td>{{dato.precioCompra}}</td>
+                    <td>{{dato.precioVenta}}</td>
+                    <td>{{dato.ganancia}}</td>
+                    <td>{{dato.existencia}}</td>
+                    <td><button type="button" class="btn"><img src="./assets/edit.png" alt=""  (click)="editarProducto(dato.id)"></button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</section>

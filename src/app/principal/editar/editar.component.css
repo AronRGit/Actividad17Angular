@@ -1,0 +1,46 @@
+.sectionGeneral{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: wrap;
+
+    padding-bottom: 5rem;
+}
+
+.sectionProducto{
+    padding-top: 3rem;
+}
+
+form{
+    width: 30rem;
+}
+
+.sectionTitle{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: wrap;
+}
+
+h5{
+    padding-left: 1rem;
+    text-decoration: underline;
+}
+
+.form-group{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form-control{
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid rgb(172, 172, 172);
+}
+
+.sectionButton{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: wrap;
+}
